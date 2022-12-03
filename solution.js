@@ -7,7 +7,7 @@ let reverse = ''
 for(let i= string.length()-1; i>=0; --i){
     reverse += string.charAt(i)
 }
-if (string.equals(reverse)) return true
+if (string === reverse) return true
 
 return false
 }
